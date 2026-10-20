@@ -1,0 +1,33 @@
+{
+  "id": "/pazienti.html",
+  "name": "Gestione Diete Tramontano",
+  "short_name": "La mia dieta",
+  "description": "Riservata ai pazienti dello Studio Tramontano già visitati e abilitati: la tua dieta, il diario, la spesa e gli appuntamenti con lo studio.",
+  "lang": "it",
+  "start_url": "/pazienti?origine=app",
+  "scope": "/pazienti",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F8F3",
+  "theme_color": "#1E4A38",
+  "icons": [
+    {
+      "src": "/app-pazienti-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-pazienti-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-pazienti-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

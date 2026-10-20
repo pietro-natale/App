@@ -1,0 +1,47 @@
+{
+	"appId": "it.tramontano.studio.pazienti",
+	"appName": "Studio Tramontano",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	},
+	"ios": {
+		"contentInset": "never",
+		"backgroundColor": "#f7f5ef"
+	},
+	"android": {
+		"backgroundColor": "#f7f5ef",
+		"allowMixedContent": false
+	},
+	"plugins": {
+		"SystemBars": {
+			"style": "LIGHT",
+			"initialViewportFitValueHint": "cover"
+		},
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		},
+		"SplashScreen": {
+			"launchShowDuration": 3000,
+			"launchAutoHide": true,
+			"backgroundColor": "#f7f5ef",
+			"showSpinner": false
+		}
+	},
+	"packageClassList": [
+		"AppPlugin",
+		"CAPBrowserPlugin",
+		"HapticsPlugin",
+		"PushNotificationsPlugin",
+		"SharePlugin",
+		"SplashScreenPlugin",
+		"StatusBarPlugin",
+		"DocumentoPlugin",
+		"StampaPlugin",
+		"WatchPontePlugin"
+	]
+}
